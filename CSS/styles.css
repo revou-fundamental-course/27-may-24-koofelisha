@@ -1,0 +1,62 @@
+/* ini css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+nav>section {
+    display: flex;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-item{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.section-container{
+    background-color: aquamarine;
+}
+
+.banner-container{
+    height: 578px;
+    border: 1px solid black;
+}
+
+.facility-list{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.form-result{
+    height: 100px;
+    border: 1px solid black;
+}
+
+.message-us-section{
+    display:flex;
+}
+
+.result-container{
+    width: 100%;
+}
